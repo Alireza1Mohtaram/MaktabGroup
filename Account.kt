@@ -5,6 +5,9 @@ class Account(accountNumber:String, balance :Double, branch :Branch ) {
 
 
     var accountNumber:String=accountNumber
+
+    println("salam")
+
     set(value) {
         if (value.trim().isEmpty()) throw Exception()
 
